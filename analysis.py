@@ -41,6 +41,8 @@ def write_clustered_segments(inputfile,labels_pred,seglength,analysis_name,resul
         # fetch all labels with the current value 
 
         ind_curlabel = np.argwhere(labels_pred==i)
+        if len(ind_curlabel) == 0:
+            continue
 
         # Calculate the offsets in the original wave file 
         offsets_wave = ind_curlabel * seglength
