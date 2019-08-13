@@ -1,0 +1,10 @@
+name_layer	slope	intercept
+conv1	1378.13	-0.00
+conv2	86.13	-0.13
+conv3	43.07	0.65
+conv4	21.53	0.92
+conv5	2.69	0.17
+conv6	1.35	0.84
+conv7	0.67	1.21
+conv8	0.34	-2.66
+conv9	0.34	-2.66
