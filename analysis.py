@@ -11,7 +11,6 @@ def quantize(vector,res=0.3,endtime=2,delaytime=1):
     maxtime = max(vectimes)
     
     alltimes = np.arange(0,maxtime-endtime,res)
-    
     qvec = []
     ## loop over all time segments between two instants of length "res"
     
